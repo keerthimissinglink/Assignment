@@ -1,0 +1,60 @@
+.dashboard-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    mat-card{
+        margin:5px 10px;
+        text-align: center;
+        padding:0px !important;
+        flex:1;
+        p{
+            font-size: 30px;
+            margin-top:32px;
+            font-weight: bold;
+        }
+    }
+   
+    .confirmed{
+        background: #FFEBEE;
+        color:#EF5350;
+        &-state{
+            background: #FFCDD2;
+            padding:10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+      }
+      .recovered{
+          background: #E8F5E9;
+          color:#66BB6A;
+          &-state{
+            background: #C8E6C9;
+            padding:10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+      }
+      .deaths{
+          background: #ECEFF1;
+          color:#78909C;
+          &-state{
+            background: #CFD8DC;
+            padding:10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+      }
+}
+.table-container{
+    margin:10px;
+    border:1px solid #ccc;
+    table {
+        width: 100%;
+      }
+      .state{
+          background: #ECEFF1;
+          cursor: pointer;
+          width:20%;
+      }
+}

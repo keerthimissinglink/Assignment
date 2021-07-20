@@ -1,0 +1,49 @@
+<div class="dashboard-container">
+    <mat-card class="confirmed">
+        <p>{{total.confirmed}}</p>
+        <div class="confirmed-state">
+            confirmed
+        </div>
+    </mat-card>
+    <mat-card class="recovered">
+      <p>{{total.recovered}}</p>
+        <div class="recovered-state">
+            Recovered
+        </div>
+    </mat-card>
+    <mat-card class="deaths">
+      <p>{{total.deaths}}</p>
+        <div class="deaths-state">
+            Deaths
+        </div>
+    </mat-card>
+</div>
+<div class="table-container">
+<table mat-table [dataSource]="dataSource">
+
+    <ng-container matColumnDef="state">
+      <th mat-header-cell *matHeaderCellDef> State </th>
+      <td mat-cell *matCellDef="let element" class="state" (click)="viewState(element.statecode)"> {{element.state}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="confirmed">
+      <th mat-header-cell *matHeaderCellDef> Confirmed </th>
+      <td mat-cell *matCellDef="let element"> {{element.confirmed}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="recovered">
+      <th mat-header-cell *matHeaderCellDef> Recovered </th>
+      <td mat-cell *matCellDef="let element"> {{element.recovered}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="deaths">
+      <th mat-header-cell *matHeaderCellDef> Deaths </th>
+      <td mat-cell *matCellDef="let element"> {{element.deaths}} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
+  
+  
