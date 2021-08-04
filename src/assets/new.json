@@ -1,0 +1,1481 @@
+{
+    "message": "Assessment fetched successfully",
+    "status": 200,
+    "result": {
+        "entityProfile": {
+            "_id": "5fd1f4a1e84a88170cfb141c",
+            "entityTypeId": "5f32d8228e0dc83124040567",
+            "entityType": "school"
+        },
+        "solution": {
+            "_id": "605c934eda9dea6400302afc",
+            "externalId": "96e4f796-8d6c-11eb-abd8-441ca8998ea1-OBSERVATION-TEMPLATE_CHILD_V2",
+            "name": "School Needs Assessment - Primary",
+            "description": "This is a school assessment to improve the process of raising budget requirements for primary schools in Punjab",
+            "registry": [],
+            "captureGpsLocationAtQuestionLevel": false,
+            "enableQuestionReadOut": false,
+            "scoringSystem": "percentage",
+            "isRubricDriven": true,
+            "pageHeading": "Domains",
+            "criteriaLevelReport": true
+        },
+        "program": {
+            "_id": "60549338acf1c71f0b2409c3",
+            "isAPrivateProgram": false,
+            "externalId": "PGM-3542-3.8.0_testing_program",
+            "name": "3.8.0 testing program",
+            "description": "3.8.0 testing program",
+            "imageCompression": {
+                "quality": 10
+            }
+        },
+        "assessment": {
+            "name": "School Needs Assessment - Primary",
+            "description": "This is a school assessment to improve the process of raising budget requirements for primary schools in Punjab",
+            "externalId": "96e4f796-8d6c-11eb-abd8-441ca8998ea1-OBSERVATION-TEMPLATE_CHILD_V2",
+            "pageHeading": "Domains",
+            "submissionId": "60e5de47468d815571fc79de",
+            "evidences": [
+                {
+                    "code": "P1_1616678305996",
+                    "sections": [
+                        {
+                            "code": "S1",
+                            "questions": [
+                                {
+                                    "_id": "",
+                                    "question": "",
+                                    "isCompleted": "",
+                                    "showRemarks": "",
+                                    "options": "",
+                                    "sliderOptions": "",
+                                    "children": "",
+                                    "questionGroup": "",
+                                    "fileName": "",
+                                    "instanceQuestions": "",
+                                    "isAGeneralQuestion": "",
+                                    "autoCapture": "",
+                                    "allowAudioRecording": "",
+                                    "prefillFromEntityProfile": "",
+                                    "entityFieldName": "",
+                                    "isEditable": "",
+                                    "showQuestionInPreview": "",
+                                    "deleted": "",
+                                    "remarks": "",
+                                    "value": "",
+                                    "usedForScoring": "",
+                                    "questionType": "",
+                                    "canBeNotApplicable": "",
+                                    "visibleIf": "",
+                                    "validation": "",
+                                    "file": "",
+                                    "externalId": "",
+                                    "tip": "",
+                                    "hint": "",
+                                    "responseType": "pageQuestions",
+                                    "modeOfCollection": "",
+                                    "accessibility": "",
+                                    "rubricLevel": "",
+                                    "sectionHeader": "",
+                                    "page": "p1",
+                                    "questionNumber": "",
+                                    "updatedAt": "",
+                                    "createdAt": "",
+                                    "__v": "",
+                                    "dateFormat": "",
+                                    "instanceIdentifier": "",
+                                    "createdFromQuestionId": "",
+                                    "evidenceMethod": "",
+                                    "payload": "",
+                                    "startTime": "",
+                                    "endTime": "",
+                                    "gpsLocation": "",
+                                    "pageQuestions": [
+                                        {
+                                            "_id": "605c934dda9dea6400302a2d",
+                                            "question": [
+                                                "Select the type of school",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [
+                                                {
+                                                    "value": "R1",
+                                                    "label": "Girls school"
+                                                },
+                                                {
+                                                    "value": "R2",
+                                                    "label": "Boys school"
+                                                },
+                                                {
+                                                    "value": "R3",
+                                                    "label": "Co-ed"
+                                                }
+                                            ],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P1_1616678305996-1616679757896",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "radio",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "1",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.878Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea6400302975",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "radio",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a2e",
+                                            "question": [
+                                                "School Head Mobile Number",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false,
+                                                "IsNumber": "true"
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P2_1616678305996-1616679757899",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "number",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "2",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.890Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea6400302976",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "number",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a2f",
+                                            "question": [
+                                                "Second incharge Mobile Number",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false,
+                                                "IsNumber": "true"
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P3_1616678305996-1616679757900",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "number",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "3",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.902Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea6400302977",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "number",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a30",
+                                            "question": [
+                                                "Email Id",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P4_1616678305996-1616679757902",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "text",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "4",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.911Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea6400302978",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "text",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a31",
+                                            "question": [
+                                                "Year of establishment",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false,
+                                                "IsNumber": "true"
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P5_1616678305996-1616679757904",
+                                            "tip": "Write area in square meters",
+                                            "hint": "",
+                                            "responseType": "number",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "5",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.921Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea6400302979",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "number",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a32",
+                                            "question": [
+                                                "Total area of school",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false,
+                                                "IsNumber": "true"
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P6_1616678305996-1616679757906",
+                                            "tip": "Write area in square meters",
+                                            "hint": "",
+                                            "responseType": "number",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "6",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.934Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea640030297a",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "number",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a33",
+                                            "question": [
+                                                "Area covered by school building",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P7_1616678305996-1616679757909",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "text",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "7",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.949Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea640030297b",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "text",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a34",
+                                            "question": [
+                                                "Own Building",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [
+                                                {
+                                                    "value": "R1",
+                                                    "label": "Yes"
+                                                },
+                                                {
+                                                    "value": "R2",
+                                                    "label": "No"
+                                                }
+                                            ],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P8_1616678305996-1616679757911",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "radio",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "8",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.961Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea640030297c",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "radio",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a35",
+                                            "question": [
+                                                "Medium of Instruction",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [
+                                                {
+                                                    "value": "R1",
+                                                    "label": "English"
+                                                },
+                                                {
+                                                    "value": "R2",
+                                                    "label": "Punjabi"
+                                                },
+                                                {
+                                                    "value": "R3",
+                                                    "label": "Hindi"
+                                                }
+                                            ],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P9_1616678305996-1616679757913",
+                                            "tip": "Select all that apply",
+                                            "hint": "",
+                                            "responseType": "multiselect",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "9",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.976Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea640030297d",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "multiselect",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a38",
+                                            "question": [
+                                                "Name of Panchayat Block",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P12_1616678305996-1616679757919",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "text",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "12",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:31.010Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da7da9dea6400302980",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "text",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a39",
+                                            "question": [
+                                                "Location of school",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [
+                                                {
+                                                    "value": "R1",
+                                                    "label": "In the village"
+                                                },
+                                                {
+                                                    "value": "R2",
+                                                    "label": "In the city"
+                                                },
+                                                {
+                                                    "value": "R3",
+                                                    "label": "On the road"
+                                                },
+                                                {
+                                                    "value": "R4",
+                                                    "label": "On State Highway"
+                                                },
+                                                {
+                                                    "value": "R5",
+                                                    "label": "On National Highway"
+                                                }
+                                            ],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P13_1616678305996-1616679757920",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "radio",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "13",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:31.024Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da7da9dea6400302981",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "radio",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a3a",
+                                            "question": [
+                                                "Are there billboards for National Highway schools?",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [
+                                                {
+                                                    "value": "R1",
+                                                    "label": "Available"
+                                                },
+                                                {
+                                                    "value": "R2",
+                                                    "label": "Not Available"
+                                                },
+                                                {
+                                                    "value": "R3",
+                                                    "label": "Not Applicable"
+                                                }
+                                            ],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P14_1616678305996-1616679757921",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "radio",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "14",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:31.039Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da7da9dea6400302982",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "radio",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a3b",
+                                            "question": [
+                                                "Is the school building heritage?",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [
+                                                {
+                                                    "value": "R1",
+                                                    "label": "Yes"
+                                                },
+                                                {
+                                                    "value": "R2",
+                                                    "label": "No"
+                                                }
+                                            ],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P15_1616678305996-1616679757923",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "radio",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "15",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:31.055Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da7da9dea6400302983",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "radio",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a3c",
+                                            "question": [
+                                                "No. of library books",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false,
+                                                "IsNumber": "true"
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P16_1616678305996-1616679757924",
+                                            "tip": "If none, write '0'",
+                                            "hint": "",
+                                            "responseType": "number",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "16",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:31.068Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da7da9dea6400302984",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "number",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a3e",
+                                            "question": [
+                                                "Which building is being shared in the double shift schools?",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P18_1616678305996-1616679757926",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "text",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "18",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:31.096Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da7da9dea6400302986",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ade",
+                                                "responseType": "text",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a36",
+                                            "question": [
+                                                "Has the SMC been constituted?",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [
+                                                {
+                                                    "value": "R1",
+                                                    "label": "Yes"
+                                                },
+                                                {
+                                                    "value": "R2",
+                                                    "label": "No"
+                                                }
+                                            ],
+                                            "sliderOptions": [],
+                                            "children": [
+                                                "605c934dda9dea6400302a37"
+                                            ],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P10_1616678305996-1616679757917",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "radio",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "10",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.988Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea640030297e",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302adf",
+                                                "responseType": "radio",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a37",
+                                            "question": [
+                                                "Date of SMC constitution",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": [
+                                                {
+                                                    "operator": "===",
+                                                    "value": "R1",
+                                                    "_id": "605c934dda9dea6400302a36"
+                                                }
+                                            ],
+                                            "validation": {
+                                                "required": false,
+                                                "max": "",
+                                                "min": ""
+                                            },
+                                            "dateFormat": "DD-MM-YYYY",
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P11_1616678305996-1616679757918",
+                                            "tip": "",
+                                            "hint": "",
+                                            "responseType": "date",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "11",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:30.998Z",
+                                            "__v": 0,
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da6da9dea640030297f",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302adf",
+                                                "responseType": "date",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        },
+                                        {
+                                            "_id": "605c934dda9dea6400302a3d",
+                                            "question": [
+                                                "Which of the following are available in the school?",
+                                                ""
+                                            ],
+                                            "isCompleted": false,
+                                            "showRemarks": false,
+                                            "options": [
+                                                {
+                                                    "value": "R1",
+                                                    "label": "Agricultural land"
+                                                },
+                                                {
+                                                    "value": "R2",
+                                                    "label": "ID cards for students"
+                                                },
+                                                {
+                                                    "value": "R3",
+                                                    "label": "ID cards for teachers"
+                                                },
+                                                {
+                                                    "value": "R4",
+                                                    "label": "ID cards for non-teaching staff"
+                                                },
+                                                {
+                                                    "value": "R5",
+                                                    "label": "ID cards for MDM cooks"
+                                                },
+                                                {
+                                                    "value": "R6",
+                                                    "label": "Tie and belts for students"
+                                                },
+                                                {
+                                                    "value": "R7",
+                                                    "label": "Scout and Guides in the school"
+                                                },
+                                                {
+                                                    "value": "R8",
+                                                    "label": "School in double shift"
+                                                },
+                                                {
+                                                    "value": "R9",
+                                                    "label": "ECO Club in the school"
+                                                },
+                                                {
+                                                    "value": "R10",
+                                                    "label": "e-content"
+                                                },
+                                                {
+                                                    "value": "R11",
+                                                    "label": "Smart Uniform"
+                                                },
+                                                {
+                                                    "value": "R12",
+                                                    "label": "Facebook page of the school"
+                                                },
+                                                {
+                                                    "value": "R13",
+                                                    "label": "Youtube channel of the school"
+                                                }
+                                            ],
+                                            "sliderOptions": [],
+                                            "children": [],
+                                            "questionGroup": [
+                                                "A1"
+                                            ],
+                                            "fileName": [],
+                                            "instanceQuestions": [],
+                                            "isAGeneralQuestion": false,
+                                            "autoCapture": false,
+                                            "allowAudioRecording": false,
+                                            "prefillFromEntityProfile": false,
+                                            "entityFieldName": "",
+                                            "isEditable": true,
+                                            "showQuestionInPreview": false,
+                                            "deleted": false,
+                                            "remarks": "",
+                                            "value": "",
+                                            "usedForScoring": "",
+                                            "questionType": "auto",
+                                            "canBeNotApplicable": "false",
+                                            "visibleIf": "",
+                                            "validation": {
+                                                "required": false
+                                            },
+                                            "file": {
+                                                "required": false,
+                                                "type": [],
+                                                "minCount": null,
+                                                "maxCount": null,
+                                                "caption": "FALSE"
+                                            },
+                                            "externalId": "P17_1616678305996-1616679757925",
+                                            "tip": "Select all that apply",
+                                            "hint": "",
+                                            "responseType": "multiselect",
+                                            "modeOfCollection": "onfield",
+                                            "accessibility": "No",
+                                            "rubricLevel": "",
+                                            "sectionHeader": "",
+                                            "page": "p1",
+                                            "questionNumber": "17",
+                                            "updatedAt": "2021-03-25T13:42:38.154Z",
+                                            "createdAt": "2021-03-25T13:18:31.081Z",
+                                            "__v": 0,
+                                            "dateFormat": "",
+                                            "instanceIdentifier": "",
+                                            "createdFromQuestionId": "605c8da7da9dea6400302985",
+                                            "evidenceMethod": "P1_1616678305996",
+                                            "payload": {
+                                                "criteriaId": "605c934eda9dea6400302ae0",
+                                                "responseType": "multiselect",
+                                                "evidenceMethod": "P1_1616678305996",
+                                                "rubricLevel": ""
+                                            },
+                                            "startTime": "",
+                                            "endTime": "",
+                                            "gpsLocation": ""
+                                        }
+                                    ]
+                                }
+                            ],
+                            "name": "Observation Question"
+                        }
+                    ],
+                    "externalId": "P1_1616678305996",
+                    "tip": null,
+                    "name": "Basic Information",
+                    "description": null,
+                    "modeOfCollection": "onfield",
+                    "canBeNotApplicable": true,
+                    "notApplicable": false,
+                    "canBeNotAllowed": true,
+                    "remarks": null,
+                    "startTime": "",
+                    "endTime": "",
+                    "isSubmitted": false,
+                    "submissions": []
+                }
+            ],
+            "submissions": {}
+        }
+    },
+    "responseCode": "OK"
+}
